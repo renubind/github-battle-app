@@ -1,4 +1,5 @@
-import React, { useState,useNavigation  } from "react";
+import React, { useState } from "react";
+import { useNavigation } from '@react-navigation/native';
 import { Link} from "react-router-dom";
 
 export default function Battle() {

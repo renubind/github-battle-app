@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-
+import { useSearchParams } from "react-router-dom";
 export default function Result() {
   const [p1Info, setP1Info] = useState({});
   const [p2Info, setP2Info] = useState({});
